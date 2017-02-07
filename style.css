@@ -1,7 +1,34 @@
 * {
   font-family: 'Lato', 'sans-serif';
 }
+.postcontent h1 {
+  color:#6194bf;
+}
 
+.comments {
+  display:inline-block;
+  float:right;
+  color:#6194bf;
+}
+.author {
+  display:inline-block;
+  float:right;
+}
+.topicslink {
+  color:#6194bf;
+}
+.topics {
+  display:inline-block;
+}
+.date {
+  display:inline-block;
+}
+.dateandcomments {
+  font-size:12px;
+}
+.topicsandauthor {
+  font-size:12px;
+}
 .postimg{
   width:20%;
   display:inline-block;
@@ -55,7 +82,8 @@ li a {
   text-decoration:none;
 }
 hr {
-  width:96%;
+  width:100%;
+  color:#eee;
 }
 .zapnav {
   padding-top:20px;
