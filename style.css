@@ -23,6 +23,12 @@
 }
 .searchbtn{
   display:inline-block;
+  border: 0;
+  background: #5698d0;
+  box-shadow: none;
+  border-radius: 5px;
+  height: 32px;
+  color: white;
 }
 li {
   display:inline;
@@ -66,7 +72,7 @@ hr {
   margin:20px 50px;
   background-color:white;
   border-radius:15px;
-  
+
   border-color: #d8d8d8;
   border-style: solid;
 }
