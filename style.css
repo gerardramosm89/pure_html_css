@@ -38,7 +38,6 @@
   display:inline-block;
 }
 #searchbar {
-  width:25%;
   display:inline-block;
 }
 .searchinput {
@@ -51,15 +50,31 @@
 .searchbtn{
   display:inline-block;
   border: 0;
-  background: #5698d0;
+  background: #4579a5;
   box-shadow: none;
   border-radius: 5px;
   height: 32px;
   color: white;
 }
+.zapnavinner {
+  padding-left:20px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
 li {
-  display:inline;
+  display:inline-block;
   font-size:14px;
+  padding-top:18px;
+  padding-bottom:18px;
+  padding-right:10px;
+}
+li:hover{
+  background-color:#4579a5;
+  color:white !important;
+  border-radius:5px;
+}
+li:hover a{
+  color:white !important;
 }
 .posts{
   width:70%;
