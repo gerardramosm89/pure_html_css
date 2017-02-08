@@ -6,6 +6,10 @@
   margin-bottom:0px;
 }
 
+.postsimgrow {
+  width:60%;
+}
+
 .imgsubheading {
   color:white;
   background-color:#6194bf;
@@ -14,9 +18,10 @@
   padding-bottom:5px;
 }
 .zapimg {
-  width:100%;
   display:block;
   margin-bottom:10px;
+  max-width:100%;
+  width:100%;
 }
 .postsubheading {
   color:#6194bf;
@@ -50,14 +55,14 @@
   font-size:12px;
 }
 .postimg{
-  width:30%;
+  width:25%;
   display:inline-block;
   margin-right:10px;
   border-color: #eee;
   border-style: solid;
 }
 .postcontent{
-  width:60%;
+  width:70%;
   display:inline-block;
 }
 #searchbar {
@@ -65,6 +70,7 @@
     margin-top: 25px;
     margin-right: 20px;
     float:right;
+    margin-bottom:10px;
 }
 .searchinput {
   display: inline-block;
@@ -128,9 +134,10 @@
 li {
   display:inline-block;
   font-size:14px;
-  padding-top:18px;
-  padding-bottom:18px;
+  padding-top:10px;
+  padding-bottom:10px;
   padding-right:10px;
+  margin-top:8px;
 }
 li:hover{
   background-color:#4579a5;
@@ -143,17 +150,18 @@ li:hover a{
 .posts{
   width:70%;
   display:inline-block;
+  float:left;
 }
 .sideimages {
-  width:30%;
+  width:28%;
   display:inline-block;
-  float:right;
 }
 .pagebody {
   background:white;
   margin-left:25px;
   margin-right:25px;
   padding-bottom:25px;
+  overflow:hidden;
 }
 li a {
   color:black;
