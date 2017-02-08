@@ -1,6 +1,23 @@
 * {
   font-family: 'Lato', 'sans-serif';
 }
+
+.sideimg img {
+  margin-bottom:0px;
+}
+
+.imgsubheading {
+  color:white;
+  background-color:#6194bf;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.zapimg {
+  width:100%;
+  display:block;
+  margin-bottom:10px;
+}
 .postcontent h1 {
   color:#6194bf;
 }
@@ -30,11 +47,14 @@
   font-size:12px;
 }
 .postimg{
-  width:20%;
+  width:30%;
   display:inline-block;
+  margin-right:10px;
+  border-color: #eee;
+  border-style: solid;
 }
 .postcontent{
-  width:75%;
+  width:60%;
   display:inline-block;
 }
 #searchbar {
