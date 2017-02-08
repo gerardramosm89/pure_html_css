@@ -18,6 +18,9 @@
   display:block;
   margin-bottom:10px;
 }
+.postsubheading {
+  color:#6194bf;
+}
 .postcontent h1 {
   color:#6194bf;
 }
